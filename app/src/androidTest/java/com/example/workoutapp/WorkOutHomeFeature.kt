@@ -19,7 +19,7 @@ class WorkOutHomeFeature: BaseUITest() {
     }
 
     @Test
-    fun navigateToWorkOutScreen() {
+    fun navigateToWorkOutDetails() {
         onView(withId(R.id.startButton)).perform(click())
         onView(withId(R.id.workOutDetailsFragment)).check(matches(isDisplayed()))
     }

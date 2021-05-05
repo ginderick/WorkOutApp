@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/workOutDetailsFragment"
-        android:name="com.example.workoutapp.WorkOutDetailsFragment"
+        android:name="com.example.workoutapp.workoutdetails.WorkOutDetailsFragment"
         android:label="fragment_work_out_details"
         tools:layout="@layout/fragment_work_out_details" />
 </navigation>
