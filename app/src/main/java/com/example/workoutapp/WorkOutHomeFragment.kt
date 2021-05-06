@@ -1,6 +1,7 @@
 package com.example.workoutapp
 
 import android.os.Bundle
+import android.os.CountDownTimer
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,10 @@ import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.fragment_work_out_home.*
 
 class WorkOutHomeFragment : Fragment() {
+
+
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -30,4 +35,6 @@ class WorkOutHomeFragment : Fragment() {
         val action = WorkOutHomeFragmentDirections.actionWorkOutHomeFragmentToWorkOutDetailsFragment()
         findNavController().navigate(action)
     }
+
+
 }
